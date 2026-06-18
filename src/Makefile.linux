@@ -36,7 +36,7 @@ DEFS = $(PLATFORMDEF) $(MBDEFS) $(NLDEFS)
 
 # Commands
 
-CC = gcc $(CPPFLAGS) $(CFLAGS) $(DEFS) $(LDFLAGS) -I $(INCDIR) -Wall
+CC = gcc $(CPPFLAGS) $(CFLAGS) $(DEFS) $(LDFLAGS) -I $(INCDIR) -Wall -fcommon
 RM = rm -f
 STRIP = strip
 
